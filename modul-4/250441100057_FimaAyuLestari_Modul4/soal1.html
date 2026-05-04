@@ -1,0 +1,414 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  darkMode: 'class'
+}
+</script>
+  <title>BzMe</title>
+</head>
+
+<body id="body" class="bg-white text-black dark:bg-gray-900 dark:text-white w-full overflow-x-hidden transition duration-300">
+
+  <div class="bg-white dark:bg-gray-900 w-full sticky top-0 z-50">
+    <nav class="max-w-6xl mx-auto flex items-center py-3 px-6">
+
+      <div class="flex items-center gap-3">
+        <img src="logo.png" alt="Logo" class="w-10 h-10 object-contain">
+        <h1 class="text-lg font-semibold text-purple-600">BzMe</h1>
+      </div>
+
+      <div class="flex-1 flex justify-between items-center mx-10 text-sm font-medium">
+        <a href="#home" class="text-orange-400">Home</a>
+        <a href="#about" class="text-purple-600 hover:text-orange-400">About</a>
+        <a href="#services" class="text-purple-600 hover:text-orange-400">Services</a>
+        <a href="#contact" class="text-purple-600 hover:text-orange-400">Contact</a>
+        <a href="#agency" class="text-purple-600 hover:text-orange-400">Blog</a>
+      </div>
+
+<div class="flex items-center gap-3">
+  <button id="themeToggle" class="bg-gray-800 text-white px-3 py-2 rounded-lg text-sm">
+    🌙 Dark
+  </button>
+
+  <a href="#contact" id="ctaBtn" class="bg-orange-400 text-white px-5 py-2 rounded-lg shadow-sm hover:shadow-md transition inline-block">
+    Sign Up
+  </a>
+</div>
+
+    </nav>
+  </div>
+
+  <section id="home" class="w-full grid md:grid-cols-2 items-center px-12 py-20 gap-6">
+
+    <div>
+      <h2 class="text-4xl font-bold leading-tight mb-4">
+        We Create <br>
+        <span class="text-purple-600">Solutions</span> For <br>
+        Your Business
+      </h2>
+
+      <p class="text-gray-500 text-sm mb-6 max-w-md">
+        We provide intelligent technology solutions to 
+      optimize efficiency and accelerate the growth of your business operations.
+      </p>
+
+      <a href="#contact" class="bg-orange-400 text-white px-6 py-2 rounded-lg shadow-lg inline-block">
+        Get Started
+      </a>
+    </div>
+
+    <div class="flex justify-center">
+      <img src="1.png" class="w-96">
+    </div>
+
+  </section>
+
+  <section id="services" class="w-full py-16 px-12">
+    <div class="text-center mb-10">
+      <h3 class="text-2xl font-bold">
+        We Provide The Best <span class="text-purple-600">Services</span>
+      </h3>
+      <p class="text-gray-500 text-sm mb-6 max-w-md items-center mx-auto">
+        We deliver high-quality technology services specifically designed to enhance your business productivity and scalability in a sustainable way.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-4 gap-6">
+
+  <div class="bg-white dark:bg-gray-700 p-5 rounded-xl shadow-lg border dark:border-gray-600">
+        <div class="bg-orange-100 w-10 h-10 flex items-center justify-center rounded-full mb-3">
+          <img src="icon 1.png" class="w-5 h-5">
+        </div>
+        <h4 class="font-semibold">Seo/Sem</h4>
+        <p class="text-gray-500 dark:text-gray-300 text-sm">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.
+        </p>
+        <a href="#contact" class="bg-purple-600 text-white text-xs px-4 py-1 mt-3 rounded inline-block hover:bg-yellow-400 transition duration-200">
+          Click Here
+        </a>
+      </div>
+
+      <div class="bg-white dark:bg-gray-700 p-5 rounded-xl shadow-lg border dark:border-gray-600">
+        <div class="bg-orange-100 w-10 h-10 flex items-center justify-center rounded-full mb-3">
+          <img src="icon 1.png" class="w-5 h-5">
+        </div>
+        <h4 class="font-semibold">Viral Campaign</h4>
+        <p class="text-gray-500 dark:text-gray-300 text-sm">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.
+        </p>
+        <a href="#contact" class="bg-purple-600 text-white text-xs px-4 py-1 mt-3 rounded inline-block hover:bg-yellow-400 transition duration-200">
+          Click Here
+        </a>
+      </div>
+
+      <div class="bg-white dark:bg-gray-700 p-5 rounded-xl shadow-lg border dark:border-gray-600">
+        <div class="bg-orange-100 w-10 h-10 flex items-center justify-center rounded-full mb-3">
+          <img src="icon 2.png" class="w-5 h-5">
+        </div>
+        <h4 class="font-semibold">Marketing</h4>
+        <p class="text-gray-500 dark:text-gray-300 text-sm">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.
+        </p>
+        <a href="#contact" class="bg-purple-600 text-white text-xs px-4 py-1 mt-3 rounded inline-block hover:bg-yellow-400 transition duration-200">
+          Click Here
+        </a>
+      </div>
+
+      <div class="bg-white dark:bg-gray-700 p-5 rounded-xl shadow-lg border dark:border-gray-600">
+        <div class="bg-orange-100 w-10 h-10 flex items-center justify-center rounded-full mb-3">
+          <img src="icon 3.png" class="w-5 h-5">
+        </div>
+        <h4 class="font-semibold">Others</h4>
+        <p class="text-gray-500 dark:text-gray-300 text-sm">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.
+        </p>
+        <a href="#contact" class="bg-purple-600 text-white text-xs px-4 py-1 mt-3 rounded inline-block hover:bg-yellow-400 transition duration-200">
+          Click Here
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="about" class="w-full bg-[#f4c46b] dark:bg-gray-800 py-16 px-12">
+    <div class="grid md:grid-cols-2 items-center gap-10">
+      <img src="2.png" class="w-80 mx-auto">
+
+      <div>
+        <h3 class="text-2xl font-bold mb-4">
+          Simple <span class="text-purple-600">Solutions!</span>
+        </h3>
+        <p class="mb-6 text-sm">We understand that no two are alike. That’s why we take the time to truly understand your unique goals, challenges, and vision.</p>
+
+        <div class="flex gap-4">
+          <a href="#contact" class="bg-orange-400 text-white px-6 py-2 rounded-lg inline-block">Get Started</a>
+          <a href="#about" class="border-2 border-purple-500 text-purple-600 px-6 py-2 rounded-lg inline-block">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="agency" class="w-full py-16 px-12">
+    <div class="grid md:grid-cols-2 items-center gap-10">
+      <div>
+        <h3 class="text-2xl font-bold mb-4">
+          Our <span class="text-purple-600">Agency</span>
+        </h3>
+        <p class="text-gray-600 mb-6 text-sm">
+          We believe in the power of data. Our analytics-driven approach allows us to make informed
+        Let's turn your data into actionable insights adored Solutions for Your Business
+        </p>
+        <a href="#about" class="bg-orange-400 text-white px-6 py-2 rounded-lg inline-block">Read More</a>
+      </div>
+
+      <img src="3.png" class="w-80 mx-auto">
+    </div>
+  </section>
+
+  <section id="testimonials" class="w-full py-16 px-12">
+    <div class="text-center mb-10">
+      <h3 class="text-2xl font-bold">
+        What <span class="text-orange-400">Clients</span> Say!
+      </h3>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white dark:bg-gray-700 p-5 rounded-xl shadow-lg border dark:border-gray-600">
+        <h4 class="text-orange-400 font-semibold">Johnny Suh</h4>
+        <p class="text-sm">Executive CEO</p>
+        <p class="text-gray-500 dark:text-gray-300 text-sm">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Maecenas metus urna, vehicula sed purus ut.
+        </p>
+
+         <div class="flex gap-1">
+          <img src="Star 2.png" class="w-4 h-4">
+          <img src="Star 2.png" class="w-4 h-4">
+          <img src="Star 2.png" class="w-4 h-4">
+          <img src="Star 1.png" class="w-4 h-4">
+          <img src="Star 1.png" class="w-4 h-4">
+         </div>
+      </div>
+
+      <div class="bg-white dark:bg-gray-700 p-5 rounded-xl shadow-lg border dark:border-gray-600">
+        <h4 class="text-orange-400 font-semibold">Nashley Juan</h4>
+        <p class="text-sm">Executive CEO</p>
+        <p class="text-gray-500 dark:text-gray-300 text-sm">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Maecenas metus urna, vehicula sed purus ut.
+        </p>
+        
+         <div class="flex gap-1">
+          <img src="Star 2.png" class="w-4 h-4">
+          <img src="Star 2.png" class="w-4 h-4">
+          <img src="Star 2.png" class="w-4 h-4">
+          <img src="Star 2.png" class="w-4 h-4">
+          <img src="Star 1.png" class="w-4 h-4">
+         </div>
+      </div>
+
+      <div class="bg-white dark:bg-gray-700 p-5 rounded-xl shadow-lg border dark:border-gray-600">
+        <h4 class="text-orange-400 font-semibold">Mark Z.</h4>
+        <p class="text-sm">Executive CEO</p>
+        <p class="text-gray-500 dark:text-gray-300 text-sm">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Maecenas metus urna, vehicula sed purus ut.
+        </p>
+
+         <div class="flex gap-1">
+          <img src="Star 2.png" class="w-4 h-4">
+          <img src="Star 2.png" class="w-4 h-4">
+          <img src="Star 2.png" class="w-4 h-4">
+          <img src="Star 2.png" class="w-4 h-4">
+          <img src="Star 2.png" class="w-4 h-4">
+         </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="w-full bg-[#f4c46b] py-10 px-12">
+    <div class="bg-orange-400 rounded-xl flex justify-between items-center px-6 py-4">
+      <h3 class="text-white font-semibold">Ready To Get Started?</h3>
+      <a href="#contact" class="bg-white text-orange-400 px-5 py-2 rounded-lg">Contact Us</a>
+    </div>
+  </section>
+
+<section id="contact" class="w-full py-16 px-12">
+ <div class="max-w-xl mx-auto bg-white dark:bg-gray-700 p-6 rounded-xl shadow-lg border dark:border-gray-600">
+    <h3 class="text-xl font-bold mb-4 text-center">Contact Us</h3>
+
+    <form id="contactForm">
+      <div class="mb-4">
+        <input type="text" id="name"
+          class="w-full border p-2 rounded 
+          bg-white text-black 
+          dark:bg-gray-800 dark:text-white">
+        <p id="nameError" class="text-red-500 text-xs hidden">Name wajib diisi</p>
+      </div>
+
+      <div class="mb-4">
+        <input type="text" id="email"
+          class="w-full border p-2 rounded 
+          bg-white text-black 
+          dark:bg-gray-800 dark:text-white">
+        <p id="emailError" class="text-red-500 text-xs hidden">Email tidak valid</p>
+      </div>
+
+      <div class="mb-4">
+        <textarea id="message"
+          class="w-full border p-2 rounded 
+          bg-white text-black 
+          dark:bg-gray-800 dark:text-white"></textarea>
+        <p id="messageError" class="text-red-500 text-xs hidden">Message wajib diisi</p>
+      </div>
+
+      <button type="submit" class="bg-orange-400 text-white px-6 py-2 rounded-lg w-full">
+        Kirim
+      </button>
+    </form>
+  </div>
+</section>
+
+  <footer class="w-full bg-[#f4c46b] dark:bg-gray-900 px-12 py-12">
+    <div class="grid md:grid-cols-4 gap-8">
+
+      <div class="flex items-center gap-2">
+        <div class="flex items-center gap-3">
+          <img src="logo.png" alt="Logo" class="w-10 h-10 object-contain">
+      </div>
+        <h1 class="font-bold text-purple-600">BzMe</h1>
+      </div>
+
+      <div>
+        <h4 class="font-semibold">Company</h4>
+        <p>About</p>
+        <p>Contact</p>
+      </div>
+
+      <div>
+        <h4 class="font-semibold">Designs</h4>
+        <p>Pricing</p>
+      </div>
+
+      <div>
+        <h4 class="font-semibold">Support</h4>
+        <p>Terms</p>
+      </div>
+
+    </div>
+  </footer>
+
+<script>
+  const form = document.getElementById("contactForm");
+
+  if (form) {
+    form.addEventListener("submit", function(e) {
+      e.preventDefault();
+
+      let valid = true;
+
+      const name = document.getElementById("name")?.value.trim() || "";
+      const email = document.getElementById("email")?.value.trim() || "";
+      const message = document.getElementById("message")?.value.trim() || "";
+
+      const nameError = document.getElementById("nameError");
+      const emailError = document.getElementById("emailError");
+      const messageError = document.getElementById("messageError");
+
+      nameError?.classList.add("hidden");
+      emailError?.classList.add("hidden");
+      messageError?.classList.add("hidden");
+
+      if (name.length < 3) {
+        nameError.innerText = "Nama minimal 3 karakter";
+        nameError.classList.remove("hidden");
+        valid = false;
+      }
+
+      if (email === "") {
+        emailError.innerText = "Email wajib diisi";
+        emailError.classList.remove("hidden");
+      valid = false;
+      }
+      if (name === "") {
+        nameError?.classList.remove("hidden");
+        valid = false;
+      }
+
+      const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!pattern.test(email)) {
+        emailError?.classList.remove("hidden");
+        valid = false;
+      }
+
+      if (message === "") {
+        messageError?.classList.remove("hidden");
+        valid = false;
+      }
+
+      if (valid) {
+        alert("Berhasil dikirim!");
+        form.reset();
+      }
+    });
+  }
+
+  const signUpBtn = document.getElementById("ctaBtn");
+
+if (signUpBtn) {
+  signUpBtn.addEventListener("click", function() {
+    e.preventDefault();
+    alert("isii dulu!");
+    
+  });
+}
+
+  const ctaBtn = document.getElementById("contactBtn");
+
+  if (ctaBtn) {
+    ctaBtn.addEventListener("click", function() {
+      const target = document.getElementById("contactSection");
+
+      if (target) {
+        target.scrollIntoView({
+          behavior: "smooth"
+        });
+      } else {
+        alert("Form belum ada!");
+      }
+    });
+  }
+</script>
+
+<script>
+  const toggleBtn = document.getElementById("themeToggle");
+  const html = document.documentElement;
+
+  toggleBtn.addEventListener("click", () => {
+    html.classList.toggle("dark");
+
+    if (html.classList.contains("dark")) {
+      toggleBtn.innerText = "☀️ Light";
+      localStorage.setItem("theme", "dark");
+    } else {
+      toggleBtn.innerText = "🌙 Dark";
+      localStorage.setItem("theme", "light");
+    }
+  });
+
+  if (localStorage.getItem("theme") === "dark") {
+    html.classList.add("dark");
+    toggleBtn.innerText = "☀️ Light";
+  }
+
+</script>
+
+</body>
+</html>
+
+
